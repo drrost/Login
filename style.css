@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.login-box{
+    width: 360px;
+    height: 180px;
+    margin: auto;
+    border-radius: 3px;
+}
+form label{
+    width: 240px;
+    height: 23px;
+    display: flex;
+    margin-top: 10px;
+}
+label{
+    font-size: 18px;
+    font-family:Gill, sans-serif;
+}
+form input[type="text"]{
+    border-color: #8e8d91;
+    border-left-style:solid;
+    border-top-style: solid;
+    border-radius: 2.5px;
+}
+form input[type="button"]{
+    width: 300px;
+    padding: 8px;
+    margin-top: 29px;
+    border: none;
+    background-color: #008002;
+    border-radius: 6px;
+    font-size: 22px;
+    font-family:Gill Sans, sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+}
+input[type="button"]{
+    height: 50px;
+}
+input[type="text"]{
+    width: 81%;
+    height: 31px;
+}
